@@ -1,0 +1,28 @@
+## How to find your home folder in WSL?
+
+*method_1:*
+`win + R : \\wsl$\your_distro_name\your_distro_ver\your_username
+for example : \\wsl$\Ubuntu-26.04\home\sobhan`
+
+*method_2:*
+
+###### windows & wsl users!
+
+`your_distro_terminal > explorer.exe .`
+
+*on action :*
+
+###### on your terminal
+
+`cd ~
+explorer.exe .`
+
+*method_3:*
+
+###### on your file explorer
+
+address bar > `\\wsl$ or \\wsl.localhost`
+
+for example : `\\wsl$\Ubuntu-26.04\home\sobhan`
+
+
